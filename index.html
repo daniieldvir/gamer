@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>Collect those Balls</h1>
+  <div class="score">
+  <h2 class="ball-count">Your score is: <span>0</span><span></span></h2> 
+  <h2 class="you_win">You Win!</h2>
+  </div>
+  <button class="Restart_btn" onclick="restart()">Restart</button>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+  <audio class="collect"><source src="audio/collect.wav" /></audio> 
+</body>
+
+</html>
