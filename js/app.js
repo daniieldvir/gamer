@@ -42,7 +42,6 @@ function glue() {
 function restart() {
 	document.querySelector('.you_win').style.display = ''
 	document.querySelector('.Restart_btn').style.display = ''
-	document.querySelector('h2 span').innerText = 0
 
 	initGame()
 }
